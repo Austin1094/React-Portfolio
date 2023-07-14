@@ -3,7 +3,22 @@ import './about.css'
 
 const About = () => {
     return (
-        <section id="about"><h2>About Me</h2></section>
+        <section id="about">
+            <div className="container about__container">
+                <div className="about__left">
+                    <div className="about__portrait">
+                        <img src="" alt="" />
+                    </div>
+                </div>
+                <div className="about__right">
+                    <h2>About Me</h2>
+                    <div className="about__cards"></div>
+                    <p>
+                        More code will be put here later once I think what I want to type.
+                    </p>
+                </div>
+            </div>
+        </section>
     )
 }
 
