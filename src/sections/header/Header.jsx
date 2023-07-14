@@ -12,8 +12,8 @@ const Header = () => {
                 <h3>Austin Adams</h3>
                 <p>Some text will go here later once I think of something better to write</p>
                 <div className="header__cta">
-                    <a href="#contact">Reach Out To Me</a>
-                    <a href="#portfolio">Projects</a>
+                    <a href="#contact" className='btn primary'>Reach Out To Me</a>
+                    <a href="#portfolio" className='btn light'>Projects</a>
                 </div>
                 <div className="header__socials">
                     {
