@@ -1,5 +1,5 @@
 import { BsFillFileCodeFill } from "react-icons/bs";
-import { GrAchievement } from 'react-icon/gr'
+import { GrAchievement } from 'react-icons/gr'
 
 const data = [
     { id: 1, icon: <BsFillFileCodeFill />, title: "Experience", description: "6 months of a Full Stack Coding Bootcamp, with additional courses from other sites" },
