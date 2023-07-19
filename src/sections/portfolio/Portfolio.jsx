@@ -7,12 +7,26 @@ import { useState } from 'react'
 const Portfolio = () => {
     const [projects, setProjects] = useState(data);
 
+    const categories = data.map(item => item.category);
+    const uniqueCategories = ["all", ...new Set(categories)];
+
+    const filterProjectsHandler = (category) => {
+        if (category === "all") {
+            setProjects(data);
+            return;
+        }
+
+        const filterProjects = data.filter(project => project.category === category);
+        setProjects(filterProjects);
+    }
+
+
     return (
         <section id="portfolio">
             <h2>Projects</h2>
             <p>Here is where you can find projects that I've worked on and also contributed in!</p>
             <div className="container portfolio__container">
-                <ProjectsCategories />
+                <ProjectsCategories categories={uniqueCategories} onFilterProjects={filterProjectsHandler} />
                 <Projects projects={projects} />
             </div>
         </section>
