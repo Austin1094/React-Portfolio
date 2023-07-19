@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutImage from '/Users/austinadams/bootcamp/react-portfolio/src/assets/bean.jpg'
 import './about.css'
 import data from './data'
 import Card from '../../components/Card'
@@ -9,7 +10,7 @@ const About = () => {
             <div className="container about__container">
                 <div className="about__left">
                     <div className="about__portrait">
-                        <img src="" alt="" />
+                        <img src={AboutImage} alt="Image of Austin Adams" />
                     </div>
                 </div>
                 <div className="about__right">
