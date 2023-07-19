@@ -14,11 +14,11 @@
     --dark-lightness: 44%;
     --light-lightness: 94%;
     --white-lightness: 100%;
-    --color-primary: hs1(var(--primary-hue), 89%, 41%);
-    --color-white: hs1(0, 5%, var(--white-lightness));
-    --color-light: hs1(var(--primary-hue), 5%. var(--light-lightness));
-    --color-black: hs1(var(--primary-hue), 5%. var(--black-lightness));
-    --color-dark: hs1(var(--primary-hue), 5%. var(--dark-lightness));
+    --color-primary: hsl(var(--primary-hue), 89%, 41%);
+    --color-white: hsl(0, 5%, var(--white-lightness));
+    --color-light: hsl(var(--primary-hue), 5%. var(--light-lightness));
+    --color-black: hsl(var(--primary-hue), 5%. var(--black-lightness));
+    --color-dark: hsl(var(--primary-hue), 5%. var(--dark-lightness));
 
     --container-width-lg: 76%;
     /* On mobile devices */
