@@ -1,5 +1,5 @@
-import React from 'react'
 import data from './data'
+import HeaderImage from '/Users/austinadams/bootcamp/react-portfolio/src/assets/bean.jpg'
 import './header.css'
 
 const Header = () => {
@@ -7,7 +7,7 @@ const Header = () => {
         <header id="header">
             <div className="container header__container">
                 <div className="header__profile">
-                    <img src="" alt="" />
+                    <img src={HeaderImage} alt="Me in Chicago" />
                 </div>
                 <h3>Austin Adams</h3>
                 <p>Some text will go here later once I think of something better to write</p>

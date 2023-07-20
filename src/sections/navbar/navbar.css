@@ -39,3 +39,9 @@ nav {
     font-size: 2rem;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+    .nav__menu {
+        display: none;
+    }
+}

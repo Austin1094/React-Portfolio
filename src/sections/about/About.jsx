@@ -1,4 +1,3 @@
-import React from 'react'
 import AboutImage from '/Users/austinadams/bootcamp/react-portfolio/src/assets/bean.jpg'
 import './about.css'
 import data from './data'

@@ -1,4 +1,3 @@
-import React from 'react'
 import { links, socials } from './data'
 import './footer.css'
 

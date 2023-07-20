@@ -20,3 +20,9 @@
     background: transparent;
     border-color: var(--color-light);
 }
+
+@media screen and (max-width: 600px) {
+    .card {
+        padding: 1.2rem;
+    }
+}
