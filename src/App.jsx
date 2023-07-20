@@ -9,7 +9,7 @@ import FAQS from './sections/faqs/FAQS';
 import Contact from './sections/contact/Contact';
 import Footer from './sections/footer/Footer';
 import FloatingNav from './sections/floating-nav/FloatingNav';
-import Modal from './components/Modal'
+import Theme from './theme/Theme';
 
 const app = () => {
     return (
@@ -23,8 +23,8 @@ const app = () => {
             <FAQS />
             <Contact />
             <Footer />
-            <FloatingNav />
-            <Modal />
+            <Theme />
+            {/*<FloatingNav />*/}
         </main>
     )
 }
