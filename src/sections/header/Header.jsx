@@ -1,17 +1,24 @@
+import { useEffect } from 'react'
 import data from './data'
 import HeaderImage from '/Users/austinadams/bootcamp/react-portfolio/src/assets/bean.jpg'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import './header.css'
 
 const Header = () => {
+    useEffect(() => {
+        AOS.init({ duration: 2000 })
+    }, [])
+
     return (
         <header id="header">
             <div className="container header__container">
-                <div className="header__profile">
+                <div className="header__profile" data-aos="fade-in">
                     <img src={HeaderImage} alt="Me in Chicago" />
                 </div>
-                <h3>Austin Adams</h3>
-                <p>Some text will go here later once I think of something better to write</p>
-                <div className="header__cta">
+                <h3 data-aos="fade-up">Austin Adams</h3>
+                <p data-aos="fade-up">Some text will go here later once I think of something better to write</p>
+                <div className="header__cta" data-aos="fade-up">
                     <a href="#contact" className='btn primary'>Reach Out To Me</a>
                     <a href="#portfolio" className='btn light'>Projects</a>
                 </div>

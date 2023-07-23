@@ -30,7 +30,7 @@ const App = () => {
     }
 
     const floatingNavToggleHandler = () => {
-        if (siteYPosition < (mainRef?.current?.getBoundingClientRect().y - 20) || siteYposition > (mainRef?.current?.getBoundingClientRect().y + 20)) {
+        if (siteYPosition < (mainRef?.current?.getBoundingClientRect().y - 20) || siteYPosition > (mainRef?.current?.getBoundingClientRect().y + 20)) {
             showFloatingNavHandler();
         } else {
             hideFloatingNavHandler();

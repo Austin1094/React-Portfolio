@@ -6,9 +6,9 @@ import './floating-nav.css'
 const FloatingNav = () => {
     return (
         <ul id='floating__nav'>
-            <Scrollspy offset={-400} className='scrollspy' items={['header', 'about', 'projects', 'contact']} currentClassName="active">
+            <Scrollspy offset={-400} className='scrollspy' items={['header', 'about', 'portfolio', 'contact']} currentClassName="active">
                 {
-                    data.map(item => <Nav key={item.id} text={item} />)
+                    data.map(item => <Nav key={item.id} item={item} />)
                 }
             </Scrollspy>
         </ul>
