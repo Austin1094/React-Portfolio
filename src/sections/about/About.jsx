@@ -26,7 +26,7 @@ const About = () => {
                         }
                     </div>
                     <p>
-                        More code will be put here later once I think what I want to type.
+                        Hello, and welcome to my portfolio! My name is Austin Adams, and I am a full-stack web developer, and a soon-to-be graduate of Rutgers Coding Bootcamp. When I'm not expanding my coding knowledge, you can often find me going to concerts or attending a sporting event. I'm looking forward to hearing back from you! You can contact me via email or LinkedIn at the bottom!
                     </p>
                 </div>
             </div>

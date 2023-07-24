@@ -17,7 +17,7 @@ const Header = () => {
                     <img src={HeaderImage} alt="Me in Chicago" />
                 </div>
                 <h3 data-aos="fade-up">Austin Adams</h3>
-                <p data-aos="fade-up">Some text will go here later once I think of something better to write</p>
+                <p data-aos="fade-up">Full Stack Web Developer</p>
                 <div className="header__cta" data-aos="fade-up">
                     <a href="#contact" className='btn primary'>Reach Out To Me</a>
                     <a href="#portfolio" className='btn light'>Projects</a>

@@ -157,8 +157,8 @@ img {
     display: flex;
     align-items: center;
     gap: 1rem;
-    background: var(--color-light);
-    color: var(--color-black);
+    background: var(--color-primary);
+    color: var(--color-white);
     padding: 0.6rem 2.5rem;
     border: 2px solid transparent;
     border-radius: var(--border-radius-2);
@@ -193,6 +193,21 @@ img {
 
 .btn.sm {
     padding: 0.5rem 1.2rem;
+    color: var(--color-white);
+    border-color: var(--color-primary);
+    border-radius: var(--border-radius-3);
+}
+
+.btn.sm:hover {
+    background-color: transparent;
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+
+.btn.light:hover {
+    background-color: transparent;
+    border-color: var(--color-primary);
+    color: var(--color-primary);
 }
 
 @media screen and (max-width: 1024px) {
