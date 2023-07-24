@@ -5,7 +5,7 @@ footer {
     transition: var(--transition);
 }
 
-.footer .nav__menu {
+footer .nav__menu {
     justify-content: center;
 }
 

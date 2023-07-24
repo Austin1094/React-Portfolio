@@ -145,7 +145,7 @@ h6 {
     font-size: 0.8rem;
 }
 
-.img {
+img {
     display: block;
     width: 100%;
     object-fit: cover;

@@ -10,4 +10,5 @@ root.render(
         <ModalProvider>
             <App />
         </ModalProvider>
-    </ThemeProvider>);
+    </ThemeProvider>
+);

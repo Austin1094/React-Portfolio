@@ -22,7 +22,7 @@
     align-items: start;
 }
 
-.card.portfolio__projects {
+.card.portfolio__project {
     animation: animateProject 800ms ease-in forwards;
 }
 

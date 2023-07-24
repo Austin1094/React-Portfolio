@@ -9,10 +9,13 @@ const Theme = () => {
         <Modal className="theme__modal">
             <h3>Choose your theme!</h3>
             <small>Please select the background color you wish to change to.</small>
-            <div className='theme__primary-colors'>
-                {
-                    primaryColors.map(pColor => <PrimaryColor key={pColor.className} className={pColor.className} />)
-                }
+            <div className="theme__primary-wrapper">
+                <h5>Primary Color</h5>
+                <div className='theme__primary-colors'>
+                    {
+                        primaryColors.map(pColor => <PrimaryColor key={pColor.className} className={pColor.className} />)
+                    }
+                </div>
             </div>
             <div className="theme__background-wrapper">
                 <h5>Background Color</h5>
